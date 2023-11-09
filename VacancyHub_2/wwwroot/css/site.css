@@ -16,3 +16,30 @@ html {
 body {
   margin-bottom: 60px;
 }
+.search-input {
+    height: 38px;
+}
+
+.search-button {
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#search-field {
+    flex-grow: 1;
+    padding: 10px;
+}
+
+#search-button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem;
+}

@@ -2,7 +2,52 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="jumbotron text-center bg-transparent">
+    <h1 class="display-4">Welcome to VacancyHub</h1>
+    <p class="lead">Your one-stop solution for all your job-seeking needs.</p>
+    <a href="@Url.Action("About", "Home")" class="btn btn-primary mb-4">Learn More</a>
 </div>
+<div class="container">
+    <div class="row">
+        <!-- Job Search Tips Card -->
+        <div class="col-md-4 mb-3">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Job Search Tips</h5>
+                    <p class="card-text">Discover strategies to enhance your job search and increase your chances of finding the right job.</p>
+                    <a href="@Url.Action("Tips", "Resources")" class="btn btn-outline-primary">Get Tips</a>
+                </div>
+            </div>
+        </div>
+        <!-- Resume Writing Card -->
+        <div class="col-md-4 mb-3">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Resume Writing</h5>
+                    <p class="card-text">Learn how to craft a resume that stands out and showcases your skills effectively to employers.</p>
+                    <a href="@Url.Action("Resume", "Resources")" class="btn btn-outline-primary">Build Resume</a>
+                </div>
+            </div>
+        </div>
+        <!-- Interview Preparation Card -->
+        <div class="col-md-4 mb-3">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Interview Preparation</h5>
+                    <p class="card-text">Prepare for interviews with tips and mock questions to make a lasting impression.</p>
+                    <a href="@Url.Action("Interview", "Resources")" class="btn btn-outline-primary">Prepare Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <!-- Include Bootstrap Bundle with Popper -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+}
+
+<style>
+    .jumbotron {
+        padding: 2rem 1rem;
+    }
+</style>
