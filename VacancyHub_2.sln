@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VacancyHub_2", "VacancyHub_2\VacancyHub_2.csproj", "{9F3A9B9B-2252-4FFE-ACA3-CB25A4934EAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VacancyHub_2", "VacancyHub_2\VacancyHub_2.csproj", "{9F3A9B9B-2252-4FFE-ACA3-CB25A4934EAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VacancyHub_2Test", "VacancyHub_2Test\VacancyHub_2Test.csproj", "{AC18B405-A4AD-4D67-B908-B4AC48DD8C57}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{9F3A9B9B-2252-4FFE-ACA3-CB25A4934EAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F3A9B9B-2252-4FFE-ACA3-CB25A4934EAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F3A9B9B-2252-4FFE-ACA3-CB25A4934EAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC18B405-A4AD-4D67-B908-B4AC48DD8C57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC18B405-A4AD-4D67-B908-B4AC48DD8C57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC18B405-A4AD-4D67-B908-B4AC48DD8C57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC18B405-A4AD-4D67-B908-B4AC48DD8C57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
