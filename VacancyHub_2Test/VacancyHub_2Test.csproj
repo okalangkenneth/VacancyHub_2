@@ -3,8 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
-    <PreserveCompilationContext>true</PreserveCompilationContext>
-    <IsPackable>false</IsPackable>
+    <NoWarn>$(NoWarn);CS7022</NoWarn>
   </PropertyGroup>
 
   <ItemGroup>
@@ -20,9 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\VacancyHub_2\VacancyHub_2.csproj" />
-    <None Update="testhost.deps.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
+   
   </ItemGroup>
 
 </Project>
